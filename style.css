@@ -209,75 +209,101 @@ footer a:hover {
     transition: 0.6s;
 }
 
-@media screen and (max-width:480) {
+@media only screen and (max-width: 480px) {
     header {
-        padding: 2vw;
+        padding: 8px;
+        flex-direction: column;
+        align-items: center;
     }
 
     header h1 {
-        font-size: 24px;
+        font-size: 30px;
+        margin-bottom: 10px;
     }
 
     header img {
-        width: 30vw;
+        width: 70px;
+        margin-bottom: 10px;
     }
 
     header ul {
+        flex-direction: column;
         gap: 10px;
-    }
-
-    header a:hover {
-        padding: 6px;
     }
 
     #introducao {
-        padding: 2vw;
+        padding: 8px;
     }
-    
+
     #introducao h2 {
-        font-size: 20px;
+        font-size: 24px;
     }
-    
+
     #introducao p {
         font-size: 14px;
     }
-    
+
     #introducao ul {
-        margin: 0vw 2vw;
+        margin: 0;
+        flex-direction: column;
     }
 
     #bibliotecas {
-        padding: 5vw 2vw;
+        padding: 8px;
     }
 
     #bibliotecas h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     #bibliotecas hr {
-        width: 30%;
+        width: 70%;
     }
 
     #blocos {
-        gap: 10px;
-        margin-top: 2vw;
-        margin-bottom: 1vw;
+        gap: 20px;
     }
 
     .biblio {
-        padding: 1vw;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
     }
-    
+
     .biblio img {
-        width: 30%;
+        width: 100%;
+    }
+
+    .biblio h3 {
+        font-size: 20px;
+    }
+
+    .biblio p {
+        font-size: 14px;
+    }
+
+    .biblio ul {
+        margin-top: 5px;
+        padding: 0;
     }
 
     #sites {
         width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #sites p {
+        font-size: 14px;
+    }
+
+    #sites ul {
+        margin-top: 5px;
+        padding: 0;
     }
 
     footer {
-        padding: 2vw;
+        padding: 8px;
     }
 
     footer h2 {
@@ -288,11 +314,7 @@ footer a:hover {
         font-size: 14px;
     }
 
-    .icon {
+    footer ul {
         gap: 10px;
-    }
-
-    .icon i {
-        font-size: 30px;
     }
 }
