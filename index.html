@@ -1,155 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imgs/Js logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1e057c350f.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="imgs/Js logo.png" type="image/x-icon">
 </head>
+
 <body>
-    <header>
-      <img src="imgs/Js logo.png" alt="">
-        <h1>JavaScript</h1>
+  <header>
+    <img src="imgs/Js logo.png" alt="">
+    <h1>JavaScript</h1>
 
-            <nav>
-                <ul>
-                    <li><a href=""></a>Home</li>
-                    <li><a href="#bibliotecas">Bibliotecas</a></li>
-                    <li><a href=""></a>Sites</li>
-                </ul>
-            </nav> 
-    </header>
+    <nav>
+      <ul>
+        <li><a href=""></a>Home</li>
+        <li><a href="#bibliotecas">Bibliotecas</a></li>
+        <li><a href="#sites">Sites</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="introducao">
-        <h2>O QUE É JAVASCRIPT?</h2>
-      
-        <p>JavaScript é uma linguagem de programação interpretada que é usada para adicionar interatividade e funcionalidades dinâmicas a páginas da web. Ele é executado no lado do cliente, o que significa que não precisa ser enviado a um servidor para ser processado.</p>
-      
-        <p>Sendo uma linguagem de programação muito poderosa e versátil, e pode ser usada para criar uma variedade de efeitos e funcionalidades, incluindo:</p>
-      
+  <section id="introducao">
+    <div class="icon">
+      <i class="fa-brands fa-js"></i>
+      <h2>O QUE É JAVASCRIPT?</h2>
+      <i class="fa-brands fa-js"></i>
+    </div>
+
+    <p>JavaScript é uma linguagem de programação interpretada que é usada para adicionar interatividade e
+      funcionalidades dinâmicas a páginas da web. Ele é executado no lado do cliente, o que significa que não precisa
+      ser enviado a um servidor para ser processado.</p>
+
+    <p>Sendo uma linguagem de programação muito poderosa e versátil, e pode ser usada para criar uma variedade de
+      efeitos e funcionalidades, incluindo:</p>
+
+    <ul>
+      <li>Animações</li>
+      <li>Interações do usuário</li>
+      <li>Jogos</li>
+      <li>Gráficos</li>
+      <li>Aplicativos da web</li>
+    </ul>
+
+    <p>Existem muitos recursos disponíveis para ajudar você a começar a aprender JavaScript. Se você está interessado em
+      aprender JavaScript, existem muitos recursos disponíveis online, incluindo tutoriais, cursos e livros, por exemplo
+      a EBAC(Escola Britânica de Artes Criativas), Obra Social Dom Bosco com o curso Programador Web, SENAI e outros.
+    </p>
+  </section>
+
+  <section id="bibliotecas">
+    <h2>Bibliotecas JavaScript</h2>
+    <hr>
+
+    <div id="blocos">
+      <div class="biblio">
+        <img src="imgs/bibliotecas/jquery.png" alt="jQuery">
+        <h3>jQuery</h3>
+
+        <p>jQuery é uma biblioteca JavaScript amplamente usada para manipulação de DOM, eventos, animações e Ajax. Foi
+          construída em 2006 por John Resig. Ela fornece uma API simples e fácil de usar que torna o desenvolvimento de
+          páginas da web mais rápido e fácil.</p>
+
+        <h4>Funcionalidades</h4>
         <ul>
-          <li>Animações</li>
-          <li>Interações do usuário</li>
-          <li>Jogos</li>
-          <li>Gráficos</li>
-          <li>Aplicativos da web</li>
+          <li>Manipulação de DOM</li>
+          <li>Eventos</li>
+          <li>Animação</li>
+          <li>Ajax</li>
         </ul>
-      
-        <p>Existem muitos recursos disponíveis para ajudar você a começar a aprender JavaScript. Se você está interessado em aprender JavaScript, existem muitos recursos disponíveis online, incluindo tutoriais, cursos e livros, por exemplo a EBAC(Escola Britânica de Artes Criativas), Obra Social Dom Bosco com o curso Programador Web, SENAI e outros.</p>
-      </section>
-
-    <section id="bibliotecas">
-        <h2>Bibliotecas JavaScript</h2>
-
-      <div id="blocos">
-        <div class="biblio">
-          <img src="imgs/bibliotecas/jquery.png" alt="jQuery">
-          <h3>jQuery</h3>
-          
-          <p>jQuery é uma biblioteca JavaScript amplamente usada para manipulação de DOM, eventos, animações e Ajax. Foi construída em 2006 por John Resig. Ela fornece uma API simples e fácil de usar que torna o desenvolvimento de páginas da web mais rápido e fácil.</p>
-
-          <h4>Funcionalidades:</h4>
-          <ul>
-            <li>Manipulação de DOM</li>
-            <li>Eventos</li>
-            <li>Animação</li>
-            <li>Ajax</li>
-          </ul>
-        </div>
-
-        <div class="biblio">
-          <img src="imgs/bibliotecas/React.png" alt="React">
-          <h3>React</h3>
-
-          <p>O React é uma biblioteca JavaScript de código aberto para criar interfaces de usuário (UIs). É mantida pelo Facebook e uma comunidade de desenvolvedores.</p>
-
-          <h4>Funcionalidades:</h4>
-          <ul>
-            <li>IU detalhada/descritiva</li>
-            <li>Virtual DOM</li>
-            <li>Armazenamento Variável(Estado)</li>
-            <li>Renderização do lado do servidor</li>
-            <li>Componentes reutilizáveis</li>
-          </ul>
-        </div>
-
-        <div class="biblio">
-          <img src="imgs/bibliotecas/Angular.png" alt="Angular">
-          <h3>Angular</h3>
-
-          <p>O Angular é uma estrutura JavaScript de código aberto, mantida pelo Google, para construir aplicações web de página única (SPAs). É uma estrutura abrangente que fornece uma ampla gama de recursos para desenvolver aplicações web complexas e escaláveis.</p>
-          
-          <h4>Funcionalidades:</h4>
-          <ul>
-            <li>Arquitetura de Componentes</li>
-            <li>Data Binding</li>
-            <li>Injeção de Dependência</li>
-            <li>Roteamento</li>
-            <li>Servições</li>
-          </ul>
-        </div>
-
-        <div class="biblio">
-          <img src="imgs/bibliotecas/Vue.png" alt="Vue.js">
-          <h3>Vue.js</h3>
-
-          <p>O Vue.js é uma estrutura JavaScript progressiva para construir interfaces de usuário. É uma estrutura leve, flexível e fácil de aprender, tornando-a uma ótima escolha para iniciantes e desenvolvedores experientes.</p>
-
-          <h4>Funcionalidades:</h4>
-          <ul>
-            <li>Virtual DOM</li>
-            <li>Data Binding</li>
-            <li>Modelo de Componente Reactivo</li>
-            <li>Diretivas Personalizadas</li>
-            <li>Transições e Animações</li>
-          </ul>
-        </div>
-
-        <div class="biblio">
-          <h3>Lodash</h3>
-          <img src="" alt="">
-
-          <p>Descrição da biblioteca 2, incluindo suas funcionalidades e exemplos de uso.</p>
-        </div>
-
-        <div class="biblio">
-          <img src="" alt="">
-          <h3>Axios</h3>
-
-          <p>Descrição da biblioteca 2, incluindo suas funcionalidades e exemplos de uso.</p>
-        </div>
-
-        <div class="biblio">
-          <img src="" alt="">
-          <h3>Moment.js</h3>
-
-          <p>Descrição da biblioteca 2, incluindo suas funcionalidades e exemplos de uso.</p>
-        </div>
-
-        <div class="biblio">
-          <img src="" alt="">
-          <h3>Chart.js</h3>
-
-          <p>Descrição da biblioteca 2, incluindo suas funcionalidades e exemplos de uso.</p>
-        </div>
-
-        <div class="biblio">
-          <img src="" alt="">
-          <h3>D3.js</h3>
-
-          <p>Descrição da biblioteca 2, incluindo suas funcionalidades e exemplos de uso.</p>
-        </div>
-
-        <div class="biblio">
-          <img src="" alt="">
-          <h3>Three.js</h3>
-
-          <p>Descrição da biblioteca 2, incluindo suas funcionalidades e exemplos de uso.</p>
-        </div>
       </div>
-    </section>
 
-    <!-- https://kinsta.com/pt/blog/bibliotecas-javascript/#as-mais-populares-bibliotecas-javascript -->
+      <div class="biblio">
+        <img src="imgs/bibliotecas/React.png" alt="React">
+        <h3>React</h3>
+
+        <p>O React é uma biblioteca JavaScript de código aberto para criar interfaces de usuário (UIs). É mantida pelo
+          Facebook e uma comunidade de desenvolvedores.</p>
+
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>IU detalhada/descritiva</li>
+          <li>Virtual DOM</li>
+          <li>Armazenamento Variável(Estado)</li>
+          <li>Renderização do lado do servidor</li>
+          <li>Componentes reutilizáveis</li>
+        </ul>
+      </div>
+
+      <div class="biblio">
+        <img src="imgs/bibliotecas/Angular.png" alt="Angular">
+        <h3>Angular</h3>
+
+        <p>O Angular é uma estrutura JavaScript de código aberto, mantida pelo Google, para construir aplicações web de
+          página única (SPAs). É uma estrutura abrangente que fornece uma ampla gama de recursos para desenvolver
+          aplicações web complexas e escaláveis.</p>
+
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>Arquitetura de Componentes</li>
+          <li>Data Binding</li>
+          <li>Injeção de Dependência</li>
+          <li>Roteamento</li>
+          <li>Servições</li>
+        </ul>
+      </div>
+
+      <div class="biblio">
+        <img src="imgs/bibliotecas/Vue.png" alt="Vue.js">
+        <h3>Vue</h3>
+
+        <p>O Vue.js é uma estrutura JavaScript progressiva para construir interfaces de usuário. É uma estrutura leve,
+          flexível e fácil de aprender, tornando-a uma ótima escolha para iniciantes e desenvolvedores experientes.</p>
+
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>Virtual DOM</li>
+          <li>Data Binding</li>
+          <li>Modelo de Componente Reactivo</li>
+          <li>Diretivas Personalizadas</li>
+          <li>Transições e Animações</li>
+        </ul>
+      </div>
+
+      <div class="biblio">
+        <img src="imgs/bibliotecas/lodash.png" alt="lodash">
+        <h3>Lodash</h3>
+
+        <p>Lodash é uma biblioteca Javascript que fornece um conjunto de funções para que a pessoa programadora possa
+          trabalhar com mais facilidade em tarefas comuns, como manipular arrays, objetos, strings, números, datas e
+          mais.</p>
+
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>Manipular arrays, objetos, strings, números e datas</li>
+          <li>Validar e criptografar dados</li>
+          <li>Trabalhar com funções e promises</li>
+          <li>E muito mais!</li>
+        </ul>
+      </div>
+
+      <div class="biblio">
+        <img src="imgs/bibliotecas/moment.png" alt="Moment">
+        <h3>Moment</h3>
+
+        <p>Moment.js é uma biblioteca JavaScript que facilita o trabalho com datas e horas. Ela fornece uma ampla gama
+          de funções para formatar, manipular e validar datas e horas, tornando o desenvolvimento de aplicações que
+          lidam com tempo muito mais fácil.</p>
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>Manipular, formatar e validar datas e horas</li>
+          <li>Conversão entre diferentes fusos horários</li>
+          <li>Trabalhar com durações</li>
+          <li>E muito mais!</li>
+        </ul>
+      </div>
+
+      <div class="biblio">
+        <img src="imgs/bibliotecas/Chart.png" alt="Chart">
+        <h3>Chart</h3>
+
+        <p>Chart.js é uma biblioteca JavaScript de código aberto para criar gráficos responsivos. Ela é fácil de usar e
+          oferece uma ampla gama de tipos de gráficos, incluindo gráficos de barras, gráficos de linhas, gráficos de
+          pizza e muito mais.</p>
+
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>Criação de gráficos de barra, linhas, pizza, radar, polares, bolhas e espelhamento</li>
+          <li>Manipulação de gráficos</li>
+        </ul>
+      </div>
+
+      <div class="biblio">
+        <img src="imgs/bibliotecas/d3.png" alt="D3">
+        <h3>D3</h3>
+
+        <p>D3.js é uma biblioteca JavaScript de código aberto para manipulação de dados e visualização de dados. Ela
+          permite que você crie gráficos interativos e visualizações de dados complexas usando padrões web como SVG,
+          HTML e CSS.</p>
+
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>Criação de gráficos de barra, linhas, pizza, radar, polares, bolhas e espelhamento</li>
+          <li>Árvores de dendrograma</li>
+          <li>Nuvem de palavras</li>
+          <li>Mapas de calor</li>
+        </ul>
+      </div>
+
+      <div class="biblio">
+        <img src="imgs/bibliotecas/Three.png" alt="Three.js">
+        <h3>Three</h3>
+
+        <p>Three.js é uma biblioteca JavaScript de código aberto para criar e renderizar gráficos 3D na web. Ela é
+          baseada no padrão WebGL e permite que você crie cenas 3D interativas e realistas usando JavaScript.</p>
+        <h4>Funcionalidades</h4>
+        <ul>
+          <li>Criação de objetos 3D: Cubos, esferas, cilindros, toros, planos, linhas e pontos</li>
+          <li>Manipulação de objetos 3D</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="sites">
+      <p>Esses foram apenas algumas bibliotecas que contribuem na criação e melhoramento do JavaScript. Existem ainda
+        uma vasta quantidade de outros frameworks que podem te ajudar, caso se interesse, acesse os links abaixo:</p>
+
+      <nav>
+        <ul>
+          <li><a href="https://kinsta.com/pt/blog/bibliotecas-javascript/#as-mais-populares-bibliotecas-javascript"
+              target="_blank">Bibliotecas mais populares de JavaScript;</a></li>
+          <li><a href="https://blog.geekhunter.com.br/frameworks-javascript-e-bibliotecas-java/" target="_blank">Os 10
+              Frameworks e Bibliotecas JavaScript mais importantes do mercado;</a></li>
+          <li><a href="" target="_blank"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <footer>
+    <div class="icon">
+      <i class="fa-solid fa-star"></i>
+      <h2>Obrigado pela Visita</h2>
+      <i class="fa-solid fa-star"></i>
+    </div>
+
+    <p>OUTROS SITES</p>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="https://truthdelta.github.io/Hello-Kitty/" target="_blank">Loja Hello Kitty</a></li>
+          <li><a href="https://ypegasuzy.github.io/Consultoria-Nutricional/home.html" target="_blank">Consultoria
+              Nutricional</a></li>
+          <li><a href="https://truthdelta.github.io/Pucca-TV-Globinho/" target="_blank">Programa de TV: Pucca</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
 </body>
+
 </html>
