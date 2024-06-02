@@ -320,112 +320,119 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 480px) {
-    header {
-        padding: 8px;
-        flex-direction: column;
-        align-items: center;
-    }
+@media screen and (max-width: 425px) {
+        header {
+            padding: 3vw;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    
+        header img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+    
+        header ul {
+            flex-direction: row;
+            gap: 10px;
+        }
+    
+        #introducao {
+            padding: 7vw;
+        }
+    
+        #introducao h2 {
+            font-size: 24px;
+        }
+    
+        #introducao p {
+            font-size: 14px;
+        }
+    
+        #introducao ul {
+            padding: 0vw 3.5vw;
 
-    header h1 {
-        font-size: 30px;
-        margin-bottom: 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            font-size: 14px;
+            text-align: left;
+            gap: 2px;
+        }
+    
+        #bibliotecas {
+            padding: 6vw 4vw;
+        }
+    
+        #bibliotecas h2 {
+            font-size: 30px;
+        }
+    
+        #bibliotecas hr {
+            width: 50%;
+        }
+    
+        #blocos {
+            gap: 20px;
+        }
+    
+        .biblio {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    
+        .biblio img {
+            width: 90%;
+        }
+    
+        .biblio h3 {
+            font-size: 20px;
+        }
+    
+        .biblio p {
+            font-size: 14px;
+        }
+    
+        .biblio ul {
+            margin-top: 5px;
+            padding: 0.5vw 3.5vw;
+            font-size: 14px;
+        }
+    
+        #sites {
+            width: 70%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    
+        #sites p {
+            font-size: 14px;
+        }
+    
+        #sites ul {
+            margin-top: 5px;
+            padding: 0.5vw 3.5vw;
+            font-size: 14px;
+        }
+    
+        footer {
+            padding: 3vw;
+        }
+    
+        footer h2 {
+            font-size: 24px;
+        }
+    
+        footer p {
+            font-size: 14px;
+        }
+    
+        footer ul {
+            gap: 10px;
+        }
     }
-
-    header img {
-        width: 70px;
-        margin-bottom: 10px;
-    }
-
-    header ul {
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    #introducao {
-        padding: 8px;
-    }
-
-    #introducao h2 {
-        font-size: 24px;
-    }
-
-    #introducao p {
-        font-size: 14px;
-    }
-
-    #introducao ul {
-        margin: 0;
-        flex-direction: column;
-    }
-
-    #bibliotecas {
-        padding: 8px;
-    }
-
-    #bibliotecas h2 {
-        font-size: 30px;
-    }
-
-    #bibliotecas hr {
-        width: 70%;
-    }
-
-    #blocos {
-        gap: 20px;
-    }
-
-    .biblio {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-
-    .biblio img {
-        width: 100%;
-    }
-
-    .biblio h3 {
-        font-size: 20px;
-    }
-
-    .biblio p {
-        font-size: 14px;
-    }
-
-    .biblio ul {
-        margin-top: 5px;
-        padding: 0;
-    }
-
-    #sites {
-        width: 70%;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-
-    #sites p {
-        font-size: 14px;
-    }
-
-    #sites ul {
-        margin-top: 5px;
-        padding: 0;
-    }
-
-    footer {
-        padding: 8px;
-    }
-
-    footer h2 {
-        font-size: 24px;
-    }
-
-    footer p {
-        font-size: 14px;
-    }
-
-    footer ul {
-        gap: 10px;
-    }
-}
