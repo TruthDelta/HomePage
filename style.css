@@ -1,0 +1,108 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header img {
+width: 10vw;
+border-radius: 20px;
+}
+
+header ul {
+display: flex;
+list-style: none;
+gap: 20px;
+
+}
+
+header a {
+color: white;
+text-decoration: none;
+}
+
+#introducao {
+padding: 4vw;
+}
+
+#introducao h2 {
+text-align: center;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+#introducao p {
+padding: 15px 0px;
+font-size: 17px;
+text-align: justify;
+}
+
+#introducao ul {
+margin: 0vw 5vw;
+display: flex;
+justify-content: space-evenly;
+}
+
+#bibliotecas {
+padding: 1vw 5vw;
+background: linear-gradient(180deg, rgba(129, 2, 146, 0.726) 100%, #ffffff6c 2%), url(imgs/bg\ biblio.png);
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+#bibliotecas h2 {
+    color: white;
+    text-align: center;
+    padding: 4vw 0vw;
+    font-size: 50px;
+}
+
+#blocos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.biblio {
+width: 250px;
+padding: 1.8vw;
+border: solid black;
+text-align: center;
+background-color: white;
+border-radius: 10px;
+box-shadow: rgba(50, 0, 67, 0.777)  5px 8px 1px;
+}
+
+.biblio img {
+width: 50%;
+}
+
+.biblio h3 {
+font-size: 30px;
+text-align: center;
+}
+
+.biblio p {
+text-align: justify;
+margin: 1vw 0vw;
+}
+
+.biblio ul {
+display: flex;
+text-align: left;
+justify-content: center;
+gap: 5px 40px;
+flex-wrap: wrap;
+margin-top: 10px;
+}
