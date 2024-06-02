@@ -209,6 +209,116 @@ footer a:hover {
     transition: 0.6s;
 }
 
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 3vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    header ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #introducao {
+        padding: 4vw;
+    }
+
+    #introducao h2 {
+        font-size: 30px;
+    }
+
+    #introducao p {
+        font-size: 16px;
+    }
+
+    #introducao ul {
+        margin: 0;
+        flex-direction: row;
+    }
+
+    #bibliotecas {
+        padding: 6vw 4vw;
+    }
+
+    #bibliotecas h2 {
+        font-size: 40px;
+    }
+
+    #bibliotecas hr {
+        width: 60%;
+    }
+
+    #blocos {
+        gap: 30px;
+    }
+
+    .biblio {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .biblio img {
+        width: 100%;
+    }
+
+    .biblio h3 {
+        font-size: 24px;
+    }
+
+    .biblio p {
+        font-size: 16px;
+    }
+
+    .biblio ul {
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    #sites {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #sites p {
+        font-size: 16px;
+    }
+
+    #sites ul {
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    footer {
+        padding: 3vw;
+    }
+
+    footer h2 {
+        font-size: 36px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    footer ul {
+        gap: 10px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     header {
         padding: 8px;
@@ -288,7 +398,7 @@ footer a:hover {
     }
 
     #sites {
-        width: 50%;
+        width: 70%;
         padding: 10px;
         margin-bottom: 20px;
     }
