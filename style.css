@@ -271,7 +271,7 @@ footer a:hover {
     }
 
     .biblio img {
-        width: 50%;
+        width: 90%;
         margin-bottom: 2vw;
     }
 
@@ -347,7 +347,7 @@ footer a:hover {
         }
     
         #introducao h2 {
-            font-size: 24px;
+            font-size: 20px;
         }
     
         #introducao p {
@@ -356,7 +356,6 @@ footer a:hover {
     
         #introducao ul {
             padding: 0vw 3.5vw;
-
             flex-direction: column;
             flex-wrap: wrap;
             font-size: 14px;
